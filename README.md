@@ -22,12 +22,16 @@ config/environments/development.rb
 `Rexster::Rest.server_instance = Rexster::Rest.new host: :localhost, port: 8182, graph: :neo4j`
 
 In some class, e.g.: app/models/rackster.rb
+
 `class Rackster
+
   include Rexster
+
 end`
 
 Usage:
 `rackster = Rackster.new`
+
 `rackster.g.v(1).script("v.out('RELATION')")`
 
 ## Contributing
