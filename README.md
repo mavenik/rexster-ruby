@@ -25,13 +25,12 @@ In some class, e.g.: app/models/rackster.rb
 
 ```
   class Rackster
-
     include Rexster
-
   end
 ```
 
 Usage:
+
 `rackster = Rackster.new`
 
 `rackster.g.v(1).script("v.out('RELATION')")`
