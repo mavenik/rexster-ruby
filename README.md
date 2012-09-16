@@ -23,11 +23,13 @@ config/environments/development.rb
 
 In some class, e.g.: app/models/rackster.rb
 
-```class Rackster
+```
+  class Rackster
 
     include Rexster
 
-  end```
+  end
+```
 
 Usage:
 `rackster = Rackster.new`
