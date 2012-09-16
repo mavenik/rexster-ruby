@@ -35,7 +35,7 @@ module Rexster
 
     def script(gremlin_script)
       @script = gremlin_script
-      inspect
+      self.inspect
     end
 
     def inspect
@@ -48,7 +48,7 @@ module Rexster
     end
 
     def to_a
-      self.inspect
+      Array.wrap self.inspect
     end
 
     private
