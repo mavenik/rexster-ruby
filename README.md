@@ -2,19 +2,19 @@
 
 Gem to interface Ruby applications with Rexster.
 
+## Requirement
+
+Rexster server running with at least one graph on it
+
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile (I haven't pushed this gem yet):
 
-    gem 'rexster-ruby'
+    gem 'rexster-ruby', :git => 'https://github.com/mavenik/rexster-ruby.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install rexster-ruby
 
 ## Usage
 
@@ -36,6 +36,8 @@ Usage:
 `rackster.g.v(1).script("v.out('RELATION')")`
 
 ## Contributing
+
+This gem is still in it's initial phase and has a huge scope for improvement.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
